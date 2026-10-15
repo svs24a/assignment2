@@ -1,0 +1,59 @@
+Dates of Github Account Creation:
+10/14/2026
+
+Dates of Git Tutorial:
+10/14/2026
+
+
+Q1.
+Console output after git push origin master:
+
+PS C:\Users\thai_\assignment2> git push origin master
+info: please complete authentication in your browser...
+Enumerating objects: 9, done.
+Counting objects: 100% (9/9), done.
+Delta compression using up to 14 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (7/7), 785 bytes | 392.00 KiB/s, done.
+Total 7 (delta 2), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (2/2), completed with 1 local object.
+To https://github.com/svs24a/assignment2.git
+   f4975e5..1c4f7f7  master -> master
+
+
+
+Q2. 
+PS C:\Users\thai_\assignment2> git rev-list --count --all
+9
+
+Q3. 
+PS C:\Users\thai_\assignment2> git log -1 --format="%ad" --date=short -- README.md
+2026-10-14
+
+Q4.
+Branches are used in a git repository to allocate a space where developers can edit code without affecting the main branch. Branches also allow multiple members to work and debug on the same source code without affecting or causing error to the main code. They can then merge them in the end.
+
+Q5.
+git log shows previous commits that were done within the repository.
+
+git status shows the state of the working directory. Along with files modified, staged, or untracked.
+
+Q6.
+git log -- Vehicle.h
+
+Q7. 
+git log --grep="file" will show commits to the repository that contain “file”.
+
+Q8. 
+Inheritance is where one class can inherit properties, methods, and attributes from another class. 
+
+Polymorphism will allow objects of different classes to use the same methods but function differently based on the class type.
+
+Encapsulation keeps data and methods confined in the same class. The data can be controlled through private or public member assignment. 
+
+Q9.
+Integration manager workflow has one person merging all changes. The dictator and lieutenants workflow uses lieutenants to merge changes from smaller groups prior to passing them to the dictator who will in the end consolidate everything to the main repository.
+
+Q10
+A team of 100 developers would benefit from Dictator and lieutenants workflow by allowing work to be delegated and consolidated into bite size pieces, which will reduce conflicts and collision in the repository.
+
